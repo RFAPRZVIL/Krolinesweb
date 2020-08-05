@@ -1,0 +1,21 @@
+.navbar-light{
+background: linear-gradient(#e0b19f, #77b579);
+justify-content: space-between;
+}
+
+.navbar-expand-lg{
+	margin-bottom: 4px;
+
+}
+
+.navbar-brand{
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	
+}
+
+.navbar-nav{
+	font-family: 'Zilla Slab', serif;
+	font-weight: bold;
+	font-size: 20px;
+}

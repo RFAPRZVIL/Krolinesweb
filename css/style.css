@@ -1,0 +1,63 @@
+/* Google Fonts */
+@import url(https://fonts.google.com/specimen/Zilla+Slab?preview.text=K-roline&preview.text_type=custom&sidebar.open&selection.family=Pacifico|Quicksand:wght@600|Zilla+Slab);
+
+
+/* Components*/
+@import	url(components/banner.css);
+@import	url(components/buttons.css);
+@import	url(components/card.css);
+@import	url(components/navs.css);
+@import url(components/carousel.css);
+
+/* Fonts */
+
+body{
+	font-family:  'Zilla Slab', serif;
+	background-color: #f4f4f4
+
+
+}
+
+h1{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.footer {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  padding: 0px 50px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+}
+
+
+
